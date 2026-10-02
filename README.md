@@ -84,13 +84,7 @@ screenshots/lab01-result.png
 ```
 
 Then add:
-
-```markdown
-## Result
-
 ![Lab 01 Result](screenshots/lab01-result.png)
-```
-
 ## 5. Commit and Push
 
 Using GitHub Desktop:

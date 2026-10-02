@@ -6,7 +6,7 @@ struct ContentView: View {
             
             // TODO 1: Change the gradient colors.
             LinearGradient(
-                colors: [.blue, .orange],
+                colors: [.red, .white],
                 startPoint: .topLeading,
                 endPoint: .bottomTrailing
             )
@@ -16,13 +16,13 @@ struct ContentView: View {
             VStack(spacing: 24) {
                 
                 // TODO 2: Change the app name.
-                Text("Movie Portal")
+                Text("World Class Bottlers")
                     .font(.largeTitle)
                     .fontWeight(.semibold)
                     .foregroundStyle(.black)
                 
                 // TODO 3: Change the welcome message.
-                Text("Welcome to CPSC-411!")
+                Text("Welcome to Tottenham!")
                     .font(.title)
                     .fontWeight(.semibold)
                     .foregroundStyle(.white)
@@ -30,7 +30,7 @@ struct ContentView: View {
                 // TODO 4:
                 // Add a movie poster image to Assets.xcassets.
                 // Replace this SF Symbol with Image("your-image-name"). For example: inception-poster.jpg would be "inception-poster"
-                Image("app_logo_1024x1024")
+                Image("Tottenham")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 180, height: 240)
@@ -40,7 +40,7 @@ struct ContentView: View {
                     .clipShape(RoundedRectangle(cornerRadius: 16))
                 
                 // TODO 5: Change this to the title of your featured movie.
-                Text("Featured Movie Title")
+                Text("All For Nothing")
                     .font(.title2)
                     .fontWeight(.bold)
                     .foregroundStyle(.white)
@@ -49,6 +49,7 @@ struct ContentView: View {
                     Text("Action")
                     Text("Comedy")
                     Text("Drama")
+                    Text("Sports")
                     
                     // TODO 6: Add one more movie genre.
                 }
@@ -58,7 +59,7 @@ struct ContentView: View {
                 // TODO 7:
                 // Replace this with a 1–2 sentence description
                 // of your movie portal.
-                Text("Discover featured movies, explore different genres, and find something new to watch.")
+                Text("Watch 11 players fight the worst fight you will ever see in your life.")
                     .font(.body)
                     .foregroundStyle(.black)
                     .multilineTextAlignment(.center)
