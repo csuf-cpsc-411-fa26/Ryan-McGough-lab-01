@@ -42,8 +42,8 @@ To show the SwiftUI Preview:
 Option + Command + Return
 ```
 XCode UI:
-![Lab 01 Demo Xcode](screenshots/demo_2.png)
-![Lab 01 Demo Build](screenshots/demo.png)
+
+![Lab 01 Demo Build](screenshots/lab01-result.png)
 ## 3. Complete the TODOs
 
 Modify `ContentView.swift` to:
